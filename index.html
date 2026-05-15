@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Mais Cred - Empréstimo Consignado Privado para Trabalhadores CLT</title>
+  <meta name="description" content="Simule seu Empréstimo Consignado Privado na Prime Mais Cred. Exclusivo para trabalhadores CLT com desconto em folha, as menores taxas e liberação rápida.">
+  
+  <!-- Favicon / Ícone -->
+  <link rel="icon" href="logo-prime-cred-oficial-sem-fundo.webp" type="image/webp">
+  
+  <!-- Folha de Estilos -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo-link" aria-label="Página Inicial Prime Mais Cred">
+        <img src="logo-prime-cred-letra-branca-sem-fundo.webp" alt="Logo Prime Mais Cred" class="logo-img">
+      </a>
+      <nav class="header-nav">
+        <a href="#sobre">O que é</a>
+        <a href="#como-contratar">Como Funciona</a>
+        <a href="#vantagens">Vantagens</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+      <div>
+        <a href="questionario.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.85rem;">Simular Agora</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="tag-badge">Crédito Exclusivo CLT</span>
+        <h1>Consignado Privado</h1>
+        <p>Empréstimo Consignado para Trabalhadores CLT</p>
+        
+        <div style="max-width: 600px; margin: 0 auto 32px auto; font-size: 0.95rem; color: var(--color-primary-light); opacity: 0.9;">
+          Saia do vermelho com crédito rápido, as menores taxas do mercado e parcelas descontadas direto no seu contracheque.
+        </div>
+
+        <!-- Card de Simulação da Hero -->
+        <div class="hero-simulation-card" id="hero-simulation-card">
+          <div class="simulation-title">Simule seu Crédito</div>
+          <div class="simulation-subtitle">É só informar o valor que você quer simular:</div>
+          
+          <div class="input-group">
+            <label for="hero-simulation-value" class="input-label">Valor Desejado</label>
+            <div class="input-wrapper">
+              <span class="input-prefix">R$</span>
+              <input type="text" id="hero-simulation-value" class="input-field" placeholder="5.000,00" value="5.000,00">
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <button type="button" id="btn-hero-simulate" class="btn btn-success">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              Simular agora!
+            </button>
+            <a href="#sobre" class="btn btn-primary" style="background-color: rgba(255,255,255,0.1); color: var(--color-white);">Saiba Mais</a>
+          </div>
+        </div>
+
+        <!-- Mini Badges de Confiança -->
+        <div class="hero-badges-grid">
+          <div class="hero-badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span>Segurança Garantida</span>
+          </div>
+          <div class="hero-badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            <span>100% Digital</span>
+          </div>
+          <div class="hero-badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            <span>Dinheiro Rápido</span>
+          </div>
+          <div class="hero-badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            <span>Aprovação Facilitada</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: O que é o Crédito -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <h2 class="section-title" style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-primary);">Empréstimo rápido para tudo o que você precisa</h2>
+      <div style="font-size: 1.8rem; font-weight: 800; text-align: center; color: var(--color-primary); margin-bottom: 24px; line-height: 1.2;">
+        Consignado Privado:<br>O que é o Crédito do Trabalhador CLT?
+      </div>
+      
+      <p class="about-text">
+        O Crédito do Trabalhador CLT é uma modalidade de empréstimo consignado regulamentada e segura, exclusiva para profissionais de empresas privadas registrados com carteira assinada.
+      </p>
+      <p class="about-text">
+        Diferente do empréstimo convencional, a legislação garante que as parcelas sejam descontadas diretamente da sua folha de pagamento. Essa segurança jurídica permite que as instituições financeiras ofereçam <strong>taxas de juros significativamente menores</strong> e uma aprovação muito mais facilitada.
+      </p>
+      <p class="about-text" style="margin-bottom: 40px;">
+        Dessa forma, você tem acesso a um crédito acessível, rápido, seguro e com muito menos burocracia para realizar seus projetos ou organizar sua vida financeira.
+      </p>
+
+      <div style="text-align: center;">
+        <a href="questionario.html" class="btn btn-success" style="max-width: 280px;">Simular Minha Proposta</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: Como Contratar -->
+  <section class="section" id="como-contratar" style="background-color: var(--color-gray-light);">
+    <div class="container">
+      <h2 class="section-title" style="text-align: left; color: var(--color-primary); font-size: 2rem; margin-bottom: 32px;">Como contratar?</h2>
+      
+      <div class="steps-container">
+        <div class="steps-grid">
+          
+          <div class="step-item">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <div class="step-title">Formulário Simples</div>
+              <div class="step-desc">Preencha nosso questionário rápido com dados básicos, leva menos de 1 minuto.</div>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <div class="step-title">Simulação Inteligente</div>
+              <div class="step-desc">Verificaremos seus requisitos e margem consignável para direcionar o melhor atendimento no WhatsApp.</div>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <div class="step-title">Receba a melhor oferta</div>
+              <div class="step-desc">Veja as opções disponíveis com nossos especialistas e escolha as condições ideais para o seu bolso.</div>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <div class="step-title">Aprovação e liberação</div>
+              <div class="step-desc">O processo é ágil e digital. O dinheiro é liberado diretamente na sua conta bancária de forma segura.</div>
+            </div>
+          </div>
+
+          <div class="step-item">
+            <div class="step-number">05</div>
+            <div class="step-content">
+              <div class="step-title">Desconto Automático</div>
+              <div class="step-desc">As parcelas são descontadas direto no seu contracheque, sem preocupação com boletos ou datas de vencimento.</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="steps-img-wrapper">
+          <!-- Imagem de apoio do Trabalhador CLT -->
+          <img src="trabalhador-clt.webp" alt="Trabalhador CLT com carteira assinada" class="steps-img">
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="questionario.html" class="btn btn-success" style="max-width: 320px; font-size: 1.1rem;">Quero contratar agora!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: Vantagens -->
+  <section class="section bg-dark-section" id="vantagens">
+    <div class="container">
+      <div style="text-align: center; color: var(--color-secondary); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+        Vantagens do Crédito do Trabalhador
+      </div>
+      <h2 class="section-title" style="margin-bottom: 48px;">Por que contratar o empréstimo consignado?</h2>
+      
+      <div class="benefits-grid">
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">%</div>
+          <div class="benefit-title">Juros Reduzidos</div>
+          <div class="benefit-desc">As taxas de juros são muito mais baixas que as de empréstimos pessoais comuns ou cartão de crédito. Menos juros, mais dinheiro no seu bolso!</div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          </div>
+          <div class="benefit-title">Parcelas Fixas</div>
+          <div class="benefit-desc">As parcelas não mudam do início ao fim do contrato e são descontadas diretamente na folha de pagamento, facilitando seu planejamento.</div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          </div>
+          <div class="benefit-title">Aprovação Facilitada</div>
+          <div class="benefit-desc">Uma excelente alternativa para conseguir crédito rápido, inclusive para quem possui restrições, desde que possua margem consignável disponível.</div>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div class="benefit-title">Dinheiro Rápido</div>
+          <div class="benefit-desc">A contratação inicial é digital, prática e sem burocracia excessiva. O valor aprovado é liberado diretamente na sua conta com total agilidade.</div>
+        </div>
+
+      </div>
+
+      <div style="text-align: center; margin-top: 48px;">
+        <a href="questionario.html" class="btn btn-success" style="max-width: 280px;">Simular agora!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: FAQ (Perguntas Frequentes) -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title" style="color: var(--color-primary); margin-bottom: 40px;">Perguntas Frequentes</h2>
+      
+      <div class="faq-container" id="faq-accordion">
+        
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>O que é o Crédito do Trabalhador?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>É uma modalidade de empréstimo consignado destinada a trabalhadores do setor privado com carteira assinada (CLT) e outras categorias. O diferencial deste programa é o desconto automático das parcelas diretamente na folha de pagamento, com a gestão sendo feita por plataformas digitais públicas (Dataprev, Carteira de Trabalho Digital e eSocial), sem depender de acordos prévios entre o empregador e a instituição financeira.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Quais são as principais vantagens dessa modalidade?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <ul>
+              <li><strong>Taxas de juros reduzidas:</strong> Menores que as do crédito pessoal comum, variando geralmente na média de 1.99% a 4.99% ao mês.</li>
+              <li><strong>Contratação 100% digital:</strong> Realizada via aplicativo, sem burocracia excessiva.</li>
+              <li><strong>Parcelas fixas:</strong> O valor das prestações permanece o mesmo do início ao fim do contrato.</li>
+              <li><strong>Conveniência:</strong> O pagamento é automático por meio do desconto direto no salário do trabalhador.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Qual a base legal do programa?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>O Crédito do Trabalhador é regulamentado pela Lei nº 15.179/2025 (originada da MP 1.292/2025) e pelas Portarias do Ministério do Trabalho e Emprego (MTE) nº 433, 434 e 435 de 2025.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Quem é elegível para solicitar o empréstimo?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Podem contratar o crédito os trabalhadores com contrato de trabalho ativo registrados no eSocial, incluindo:</p>
+            <ul>
+              <li>Empregados do setor privado (Regime CLT) urbanos e rurais.</li>
+              <li>Empregados domésticos.</li>
+              <li>Microempreendedores Individuais (MEIs) que possuam funcionários.</li>
+              <li>Trabalhadores de aplicativos de transporte e entrega (motoristas e entregadores).</li>
+              <li>Diretores não empregados com vínculo ao FGTS.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Quais são os requisitos mínimos de tempo de serviço?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Embora varie conforme a instituição financeira, os critérios comuns são:</p>
+            <ul>
+              <li>Vínculo ativo de, no mínimo, 3 meses no emprego atual.</li>
+              <li>Empresa empregadora ativa há mais de 24 meses.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>É possível contratar mesmo com o nome negativado (restrição no SPC/Serasa)?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. Na maioria dos casos, o acesso é facilitado mesmo para quem não possui score alto ou está negativado, pois a garantia do pagamento reside no desconto direto em folha e no uso de saldos do FGTS como garantia.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Quem NÃO pode contratar o Crédito do Trabalhador?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>O produto não está disponível para:</p>
+            <ul>
+              <li>Trabalhadores em período de experiência.</li>
+              <li>Funcionários cumprindo aviso prévio.</li>
+              <li>Trabalhadores em licença médica, maternidade ou paternidade.</li>
+              <li>Autônomos informais (sem vínculo via aplicativo ou CLT) e empreendedores sem funcionários.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>O que é margem consignável e qual o seu limite?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>A margem consignável é o valor máximo do salário que pode ser comprometido mensalmente para pagar as parcelas.</p>
+            <ul>
+              <li>Para trabalhadores CLT e domésticos: O limite é de 35% da renda líquida mensal.</li>
+              <li>Para trabalhadores de aplicativos: O limite é de 30% do montante repassado pelas plataformas.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Quais garantias podem ser utilizadas no empréstimo?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>O trabalhador pode oferecer como garantia:</p>
+            <ul>
+              <li>Até 10% do saldo disponível na conta vinculada do FGTS.</li>
+              <li>Até 100% do valor da multa rescisória (os 40% devidos em caso de demissão sem justa causa).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Qual o valor máximo e o prazo de pagamento?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>O valor máximo depende da margem disponível e da análise de crédito. O prazo de pagamento é flexível, podendo chegar a 36 meses, dependendo das condições da instituição financeira e do empregador.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Como é feita a contratação?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>O processo é realizado de forma 100% digital, com total segurança e privacidade. O processo pode variar dependendo da instituição financeira, mas no geral, é realizada a confirmação e autorização de consulta de dados, depois da coleta de dados é feito uma simulação, assim que aprovada a proposta apresentada, é realizada a digitação no sistema da instituição financeira. É fornecido um link de formalização. Após finalizada a formalização e a averbação da instituição financeira, o crédito é realizado na conta corrente cadastrada.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Quanto tempo leva para o dinheiro cair na conta?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Após a aprovação e averbação do contrato pela Dataprev, o valor costuma ser liberado rapidamente, variando de 1 hora até 24 horas.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Existe alguma taxa antecipada para liberação do crédito?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Não. Nenhuma instituição financeira autorizada cobra taxas, seguros ou depósitos antecipados para liberar o crédito consignado. Qualquer pedidos de pagamentos prévios ou repasses posteriores a liberação do crédito são proibidos e indícios claros de fraude.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>O que acontece em caso de demissão ou pedido de demissão?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>A dívida não é extinta com o desligamento. Ocorrem as seguintes ações:</p>
+            <ul>
+              <li><strong>Desconto nas verbas rescisórias:</strong> A empresa pode descontar o valor devido diretamente do que o trabalhador tem a receber na rescisão, respeitando os limites legais.</li>
+              <li><strong>Garantias do FGTS:</strong> O banco pode reter os 10% do saldo do FGTS e 100% da multa rescisória empenhados como garantia.</li>
+              <li><strong>Saldo remanescente:</strong> Caso ainda reste dívida, o valor é convertido em crédito pessoal, devendo ser pago via boletos ou débito em conta.</li>
+              <li><strong>Novo emprego:</strong> Se o trabalhador conseguir um novo vínculo CLT, a dívida pode ser automaticamente transferida para desconto no salário da nova empresa.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>É possível fazer a portabilidade do empréstimo?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. O trabalhador pode migrar seu contrato para outra instituição financeira que ofereça taxas mais baixas ou melhores condições. Fale com nosso atendimento, que realizamos as simulações e buscamos as melhores condições disponíveis.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>O que acontece se a empresa não repassar o valor descontado?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>O empregador tem a obrigação legal de repassar os valores retidos sob pena de sanções administrativas, civis e criminais. Caso o desconto ocorra no holerite, mas não apareça como pago no banco, o trabalhador deve contatar o RH da empresa e a instituição financeira.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Como a empresa é notificada sobre novos empréstimos?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>A empresa recebe um aviso eletrônico via Domicílio Eletrônico Trabalhista (DET) entre os dias 21 e 25 de cada mês, informando que houve contratações por parte de seus funcionários.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">
+            <span>Quais são as responsabilidades do Departamento Pessoal do empregador?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <ul>
+              <li><strong>Consulta mensal:</strong> Acessar o Portal Emprega Brasil para baixar o "Arquivo de Empréstimos" com os valores atualizados.</li>
+              <li><strong>Escrituração:</strong> Lançar o desconto no eSocial utilizando a rubrica específica (9253 - Empréstimos eConsignados).</li>
+              <li><strong>Recolhimento:</strong> Gerar a guia via FGTS Digital (ou DAE para domésticos/MEI) e efetuar o pagamento até o dia 20 do mês seguinte.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card de Contato / Suporte -->
+      <div class="cta-support">
+        <h3>Tem mais dúvidas?</h3>
+        <p>Preencha nosso questionário inteligente para verificar seus requisitos ou inicie seu atendimento personalizado com nossa equipe.</p>
+        <div class="cta-support-buttons">
+          <a href="questionario.html" class="btn btn-secondary">Simular e Qualificar</a>
+          <a href="questionario.html" class="btn btn-outline">Falar com Atendente</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-info">
+          <img src="logo-prime-cred-letra-branca-sem-fundo.webp" alt="Logo Prime Mais Cred" class="footer-logo">
+          <p>Especialistas em soluções financeiras e crédito inteligente para trabalhadores CLT. Garantia de sigilo, segurança, agilidade e excelência no atendimento.</p>
+        </div>
+
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#header">Início</a></li>
+              <li><a href="#sobre">O que é</a></li>
+              <li><a href="#como-contratar">Como Funciona</a></li>
+              <li><a href="#vantagens">Vantagens</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <ul>
+              <li><a href="#faq">Perguntas Frequentes</a></li>
+              <li><span>contato@primemaiscred.com.br</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div style="font-size: 0.9rem; color: var(--color-white); font-weight: 600;">
+          © 2026 Todos os direitos reservados. Prime Mais Cred
+        </div>
+        
+        <div class="legal-disclaimers">
+          <p>
+            Prime Mais Cred é uma marca de propriedade da Prime Consignados Ltda | CNPJ: 28.781.115/0001-80 | Quadra 07 Lote 17 Loja 01 - Valparaíso I Etapa A, Valparaiso de Goiás/GO - CEP: 72.876-021
+          </p>
+          <p>
+            A Prime Mais Cred não é uma instituição financeira e não realiza operações de crédito diretamente com recursos próprios.<br>
+            Como correspondente bancário, seguimos as diretrizes do Banco Central do Brasil, nos termos da <a href="https://www.bcb.gov.br/pre/normativos/res/2011/pdf/res_3954_v7_l.pdf" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Resolução nº. 3.954, de 24 de fevereiro de 2011</a> e somos certificados pela Febraban por meio da certificação FBB 110, além de certificações da Lei Geral de Proteção de Dados (LGPD - <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Lei nº 13.709/2018</a>) e da Prevenção a Lavagem de Dinheiro e Financiamento do Terrorismo (PLDFT - <a href="https://www.planalto.gov.br/ccivil_03/leis/l9613.htm" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Lei n° 9.613/1998</a> - art. 9°).<br>
+            Toda avaliação de crédito será realizada conforme a política de crédito da Instituição Financeira escolhida pelo cliente.<br>
+            Antes da contratação de qualquer tipo de crédito através de nossos parceiros, o cliente receberá todas as condições e informações relativas ao produto a ser contratado, de forma completa e transparente, incluindo CET (Custo Efetivo Total), valor e quantidade de parcelas, valor bruto e líquido, taxas, tarifas, valor de seguros quando existentes e meios de quitação e/ou portabilidade.
+          </p>
+          <p>
+            Este site não é afiliado ao Google, Youtube, Tik Tok, Facebook, Instagram, WhatsApp, Meta ou a qualquer entidade ligada ao Google Brasil Internet Ltda, Facebook Serviços Online do Brasil Ltda ou ByteDance Brasil Tecnologia Ltda. Uma vez que você sai dos sites ou apps dos ecossistemas do Google, Meta e/ou Tik Tok, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usar resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos qualquer tipo de spam ou disparo em massa sem consentimento prévio. Acesse nossa política de privacidade e os termos de uso para saber mais.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Script para capturar o clique no botão de simulação da Hero e repassar o valor -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const btnSimulate = document.getElementById('btn-hero-simulate');
+      const inputVal = document.getElementById('hero-simulation-value');
+      
+      if (btnSimulate && inputVal) {
+        btnSimulate.addEventListener('click', () => {
+          let val = inputVal.value.trim();
+          if (!val) val = "5.000,00";
+          // Redireciona repassando o valor na URL
+          window.location.href = `questionario.html?valor=${encodeURIComponent(val)}`;
+        });
+
+        // Permitir submeter com Enter no input
+        inputVal.addEventListener('keyup', (e) => {
+          if (e.key === 'Enter') {
+            btnSimulate.click();
+          }
+        });
+      }
+    });
+  </script>
+
+  <!-- Script Principal da Página -->
+  <script src="js/main.js"></script>
+</body>
+</html>
